@@ -7,39 +7,26 @@ public class Stack1 {
     public static int[] solution(int[] heights) {
         int[] answer = new int[heights.length];
 
-        Stack<Integer> stack1 = new Stack<Integer>();
-        Stack<Integer> stack2 = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<Integer>();
         for(int height : heights) {
-            stack1.push(height);
-            stack2.push(height);
+            stack.push(height);
         }
 
-        System.out.println(stack1);
+        while(stack.size() > 0) {
+            int pop = stack.pop();
+            int size = stack.size()-1;
 
-        while(stack2.size() > 0) {
-            int stack1Size = stack1.size();
-            int stack2Size = stack2.size();
+            for(int i=size; i>=0; i--) {
+                if(heights[i] > pop) {
+                    answer[size+1] = i+1;
+                    break;
+                }
 
-            if(stack1Size == stack2Size) {
-                stack1.pop();
-                continue;
-            } else if(stack1Size == 0) {
-                answer[stack2.size()-1] = 0;
-                stack2.pop();
-                continue;
+                if(i == 0) {
+                    answer[size+1] = 0;
+                    break;
+                }
             }
-
-            int stack1Last = stack1.lastElement();
-            int stack2Last = stack2.lastElement();
-
-
-            if(stack1Last > stack2Last) {
-                answer[stack2Size-1] = stack1Size;
-                stack2.pop();
-            } else {
-                stack1.pop();
-            }
-
         }
 
         return answer;
