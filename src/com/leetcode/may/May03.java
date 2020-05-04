@@ -8,9 +8,9 @@ public class May03 {
     public static boolean canConstruct(String ransomNote, String magazine) {
         boolean answer = true;
 
-//        수정 전
-//        Runtime: 14 ms
-//        Memory Usage: 40.8 MB
+        // 수정 전
+        // Runtime: 14 ms
+        // Memory Usage: 40.8 MB
 //        HashMap<Character, Integer> ransomNoteMap = new HashMap<Character, Integer>();
 //        HashMap<Character, Integer> magazineMap = new HashMap<Character, Integer>();
 //
@@ -34,9 +34,9 @@ public class May03 {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//        수정 후
-//        Runtime: 2 ms
-//        Memory Usage: 40.1 MB
+        // 수정 후
+        // Runtime: 2 ms
+        // Memory Usage: 40.1 MB
         if(magazine.length() < ransomNote.length()) return false;
 
         int[] charArr = new int[26];

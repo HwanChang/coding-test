@@ -5,9 +5,9 @@ public class May02 {
     public static int numJewelsInStones(String J, String S) {
         int answer = 0;
 
-//        수정 전
-//        Runtime: 9 ms
-//        Memory Usage: 40.8 MB
+        // 수정 전
+        // Runtime: 9 ms
+        // Memory Usage: 40.8 MB
 //        String[] jewels = J.split("");
 //        String[] stones = S.split("");
 //
@@ -21,9 +21,9 @@ public class May02 {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//        수정 후
-//        Runtime: 0 ms
-//        Memory Usage: 37.4 MB
+        // 수정 후
+        // Runtime: 0 ms
+        // Memory Usage: 37.4 MB
         for(char jewel : J.toCharArray()) {
             for(char stone : S.toCharArray()) {
                 if(jewel == stone) {

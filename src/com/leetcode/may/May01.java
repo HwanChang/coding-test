@@ -10,10 +10,10 @@ public class May01 {
 
     }
 
-//    수정 전 : n=2, badVersion=1 이면 1이 아닌 2를 반환하는 오류.
-//    수정 후 : isBadVersion 이 false 일 경우 min 값은 half+1 로 수정.
-//    Runtime: 12 ms
-//    Memory Usage: 36.1 MB
+    // 수정 전 : n=2, badVersion=1 이면 1이 아닌 2를 반환하는 오류.
+    // 수정 후 : isBadVersion 이 false 일 경우 min 값은 half+1 로 수정.
+    // Runtime: 12 ms
+    // Memory Usage: 36.1 MB
     public static int firstBadVersion(int n) {
 
         return checkBadVersion(1, n);
@@ -34,10 +34,10 @@ public class May01 {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//    leetCode Solution 참고
-//    수정 후 : 재귀함수보다 시간이 더 오래걸린다.
-//    Runtime: 17 ms
-//    Memory Usage: 37.8 MB
+    // leetCode Solution 참고
+    // 수정 후 : 재귀함수보다 시간이 더 오래걸린다.
+    // Runtime: 17 ms
+    // Memory Usage: 37.8 MB
 //    public static int firstBadVersion(int n) {
 //
 //        int min = 1;
