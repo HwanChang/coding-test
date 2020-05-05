@@ -7,7 +7,6 @@ public class May01 {
         if(n >= 4) answer = true;
 
         return answer;
-
     }
 
     // 수정 전 : n=2, badVersion=1 이면 1이 아닌 2를 반환하는 오류.
@@ -15,9 +14,7 @@ public class May01 {
     // Runtime: 12 ms
     // Memory Usage: 36.1 MB
     public static int firstBadVersion(int n) {
-
         return checkBadVersion(1, n);
-
     }
 
     public static int checkBadVersion(int min, int max) {
