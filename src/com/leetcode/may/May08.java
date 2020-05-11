@@ -1,5 +1,6 @@
 package com.leetcode.may;
 
+// Check If It Is a Straight Line
 public class May08 {
 
     // Runtime: 0 ms

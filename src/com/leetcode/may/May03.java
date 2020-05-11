@@ -3,6 +3,7 @@ package com.leetcode.may;
 import java.util.HashMap;
 import java.util.Map;
 
+// Ransom Note
 public class May03 {
 
     public static boolean canConstruct(String ransomNote, String magazine) {

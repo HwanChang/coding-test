@@ -1,5 +1,6 @@
 package com.leetcode.may;
 
+// Valid Perfect Square
 public class May09 {
 
     public static boolean isPerfectSquare(int num) {

@@ -1,5 +1,6 @@
 package com.leetcode.may;
 
+// First Bad Version
 public class May01 {
 
     public static boolean isBadVersion(int n) {

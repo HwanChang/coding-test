@@ -1,5 +1,6 @@
 package com.leetcode.may;
 
+// Jewels and Stones
 public class May02 {
 
     public static int numJewelsInStones(String J, String S) {

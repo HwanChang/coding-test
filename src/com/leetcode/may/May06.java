@@ -3,6 +3,7 @@ package com.leetcode.may;
 import java.util.HashMap;
 import java.util.Map;
 
+// Majority Element
 public class May06 {
 
     // Runtime: 8 ms

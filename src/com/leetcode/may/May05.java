@@ -2,6 +2,7 @@ package com.leetcode.may;
 
 import java.util.HashMap;
 
+// First Unique Character in a String
 public class May05 {
 
     // Runtime: 22 ms

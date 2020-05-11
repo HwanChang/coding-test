@@ -2,6 +2,7 @@ package com.leetcode.may;
 
 import java.util.Arrays;
 
+// Find the Town Judge
 public class May10 {
 
     public static int findJudge(int N, int[][] trust) {
