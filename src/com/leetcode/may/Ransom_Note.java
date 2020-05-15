@@ -3,8 +3,8 @@ package com.leetcode.may;
 import java.util.HashMap;
 import java.util.Map;
 
-// Ransom Note
-public class May03 {
+// May03
+public class Ransom_Note {
 
     public static boolean canConstruct(String ransomNote, String magazine) {
         boolean answer = true;

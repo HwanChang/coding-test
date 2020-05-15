@@ -87,8 +87,8 @@ class Trie {
  * boolean param_3 = obj.startsWith(prefix);
  */
 
-// Implement Trie (Prefix Tree)
-public class May14 {
+// May14
+public class Implement_Trie {
 
     public static void main(String[] args) {
         String word = "apple";
@@ -96,6 +96,7 @@ public class May14 {
 
         Trie obj = new Trie();
         obj.insert(word);
+        obj.insert("agent");
         boolean param_2 = obj.search(word);
         boolean param_3 = obj.startsWith(prefix);
 

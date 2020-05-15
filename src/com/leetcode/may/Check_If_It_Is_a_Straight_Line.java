@@ -1,7 +1,7 @@
 package com.leetcode.may;
 
-// Check If It Is a Straight Line
-public class May08 {
+// May08
+public class Check_If_It_Is_a_Straight_Line {
 
     // Runtime: 0 ms
     // Memory Usage: 38.9 MB

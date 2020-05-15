@@ -32,8 +32,8 @@ class TreeNode {
     }
 }
 
-// Cousins in Binary Tree
-public class May07 {
+// May07
+public class Cousins_in_Binary_Tree {
 
     // 수정 전 : 재귀함수 사용 하지 않고 큐 사용 하면 0ms 대로 실행 가능.
     // Runtime: 3 ms

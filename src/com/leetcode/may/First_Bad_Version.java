@@ -1,7 +1,7 @@
 package com.leetcode.may;
 
-// First Bad Version
-public class May01 {
+// May01
+public class First_Bad_Version {
 
     public static boolean isBadVersion(int n) {
         boolean answer = false;

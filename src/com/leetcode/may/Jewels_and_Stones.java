@@ -1,7 +1,7 @@
 package com.leetcode.may;
 
-// Jewels and Stones
-public class May02 {
+// May02
+public class Jewels_and_Stones {
 
     public static int numJewelsInStones(String J, String S) {
         int answer = 0;

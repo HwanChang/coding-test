@@ -1,7 +1,7 @@
 package com.leetcode.may;
 
-// Valid Perfect Square
-public class May09 {
+// May09
+public class Valid_Perfect_Square {
 
     public static boolean isPerfectSquare(int num) {
 

@@ -2,8 +2,8 @@ package com.leetcode.may;
 
 import java.util.Arrays;
 
-// Flood Fill
-public class May11 {
+// May11
+public class Flood_Fill {
 
     // Runtime: 0 ms
     // Memory Usage: 40.6 MB

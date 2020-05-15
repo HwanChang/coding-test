@@ -3,8 +3,8 @@ package com.leetcode.may;
 import java.util.HashMap;
 import java.util.Map;
 
-// Majority Element
-public class May06 {
+// May06
+public class Majority_Element {
 
     // Runtime: 8 ms
     // Memory Usage: 45.3 MB

@@ -3,8 +3,8 @@ package com.leetcode.may;
 import java.util.HashMap;
 import java.util.Map;
 
-// Single Element in a Sorted Array
-public class May12 {
+// May12
+public class Single_Element_in_a_Sorted_Array {
 
     public static int singleNonDuplicate(int[] nums) {
         // 수정 전

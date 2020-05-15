@@ -1,7 +1,7 @@
 package com.leetcode.may;
 
-// Number Complement
-public class May04 {
+// May04
+public class Number_Complement {
 
     // Runtime: 0 ms
     // Memory Usage: 36 MB

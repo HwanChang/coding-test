@@ -2,8 +2,8 @@ package com.leetcode.may;
 
 import java.util.Arrays;
 
-// Find the Town Judge
-public class May10 {
+// May10
+public class Find_the_Town_Judge {
 
     public static int findJudge(int N, int[][] trust) {
 //        수정 전

@@ -2,8 +2,8 @@ package com.leetcode.may;
 
 import java.util.HashMap;
 
-// First Unique Character in a String
-public class May05 {
+// May05
+public class First_Unique_Character_in_a_String {
 
     // Runtime: 22 ms
     // Memory Usage: 39.6 MB
