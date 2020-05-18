@@ -54,8 +54,8 @@ public class Find_All_Anagrams_in_a_String {
         // 수정 후
         // Runtime: 14 ms
         // Memory Usage: 44.6 MB
-        int[]sArray = new int[26];
-        int[]pArray = new int[26];
+        int[] sArray = new int[26];
+        int[] pArray = new int[26];
 
         for(char c: p.toCharArray())
             pArray[c-'a']++;
