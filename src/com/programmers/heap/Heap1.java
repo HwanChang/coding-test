@@ -9,7 +9,7 @@ public class Heap1 {
 
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         for(Integer scovilleValue : scoville) {
-            minHeap.add(scovilleValue);
+            minHeap.offer(scovilleValue);
         }
 
         while(!minHeap.isEmpty() && minHeap.peek() < K) {
